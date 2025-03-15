@@ -1,0 +1,21 @@
+<!DOCTYPE html2>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>centreeinstein.ml</title>
+<style>
+    body {
+        background-color: white;
+    }
+
+</style>
+<button id="change-color-button">Изменить цвет фона</button>
+
+<script>
+    const button = document.getElementById("change-color-button");
+    butto.addEventListener("click", function(){
+        const body = document.querySelector("body");
+        body.style.backgroundColor = "red";
+    });
+</script>
